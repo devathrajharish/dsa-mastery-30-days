@@ -42,8 +42,8 @@ If you cannot solve a problem:
 ### Week 1: Arrays, Hashing & Two Pointers
 | Day | Topic | Status |
 |-----|-------|--------|
-| [Day 01](Day-01/README.md) | Big-O and Array Fundamentals | ⬜ |
-| [Day 02](Day-02/README.md) | Hash Sets | ⬜ |
+| [Day 01](Day-01/README.md) | Big-O and Array Fundamentals | ✅ |
+| [Day 02](Day-02/README.md) | Hash Sets | 🟨 |
 | [Day 03](Day-03/README.md) | Hash Maps | ⬜ |
 | [Day 04](Day-04/README.md) | Strings and Frequency Maps | ⬜ |
 | [Day 05](Day-05/README.md) | Two Pointers: Arrays | ⬜ |
