@@ -7,13 +7,22 @@ that appears more than n / 2 times). Always exists.
 """
 
 
+from itertools import count
+
+
 def majority_element(nums):
     """
     Time: O(?)
     Space: O(?)
     """
-    # TODO: implement your solution here
-    pass
+    counts = {}
+    for num in nums:
+        if num not in counts:
+            counts[num] = 1
+        else:
+            counts[num] += 1
+    return max(counts, key=counts.get)
+
 
 
 if __name__ == "__main__":
