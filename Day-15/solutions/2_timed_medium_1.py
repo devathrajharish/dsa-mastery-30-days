@@ -1,11 +1,16 @@
 """
-Problem: Timed Medium Problem 1
+Timed Medium Problem 1
 Difficulty: Medium
 
-[Add problem statement and examples]
+This is a REVISION slot, not a fixed LeetCode problem. Pick your own
+problem for this slot (see the day's README for suggested topics),
+paste its statement here, then implement your solution below.
+
+Problem: [paste the problem you picked]
+LeetCode: [paste the link]
 """
 
-# TODO: Implement solution
+# TODO: implement your solution here
 
 if __name__ == "__main__":
     # Test cases

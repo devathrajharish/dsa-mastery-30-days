@@ -2,24 +2,21 @@
 
 ## 🎯 Learning Objectives
 
-- Understand All patterns learned so far
-Understand Timed problem solving
-Understand Pattern recognition under pressure
+- Review and apply All patterns learned so far
+- Review and apply Timed problem solving
+- Review and apply Pattern recognition under pressure
 
 ---
 
 ## 📚 Concept: Midpoint Revision
 
-### Key Ideas
+You're halfway through. Days 01-14 covered arrays, hash sets/maps, frequency counting, two pointers, sliding windows, prefix sums, binary search (including rotated variants), and linked lists (reversal, merging, fast/slow pointers). Today is a timed check: can you recognize and apply these patterns under time pressure, the way you'd need to in an interview?
+
+### Patterns to Review
 
 - All patterns learned so far
 - Timed problem solving
 - Pattern recognition under pressure
-
-### Real-World Applications
-
-- [Add real-world use cases]
-- [Add more examples]
 
 ---
 
@@ -40,105 +37,75 @@ Mixed problems - identify pattern before coding!
 
 ## 🧠 Key Insights
 
-1. [Key insight 1]
-2. [Key insight 2]
-3. [Key insight 3]
+1. Time pressure exposes whether you actually internalized a pattern or just recognized it when re-reading a solution.
+2. If you're stuck after 2-3 minutes without an approach, name the *shape* of the problem (existence check? range query? sorted+search? two ends?) before writing any code.
+3. Reviewing mistakes immediately after a timed attempt — while the reasoning is still fresh — is more valuable than the attempt itself.
 
 ---
 
 ## 📋 Practice Problems
 
-### Problem 1: Timed Easy Problem
+Unlike other days, this is a **revision day** — there's no single fixed
+problem. Pick unseen Easy/Medium problems that exercise the patterns
+above, then fill in the slots below.
+
+### Slot 1: Timed Easy Problem
 **Difficulty:** Easy
 
-**Problem Statement:**
-[Add problem statement here from LeetCode or problem source]
-
-**Examples:**
-[Add examples here]
-
-**Constraints:**
-[Add constraints here]
+**Instructions:**
+Pick an unseen Easy problem from arrays, hash sets/maps, or two pointers. Give yourself 10 minutes.
 
 **Solution Location:** [solutions/1_timed_easy.py](solutions/1_timed_easy.py)
+**Practice Location:** [questions/timed_easy.py](questions/timed_easy.py)
 
-**Approaches to Consider:**
-- Brute force solution
-- Optimized approach
-- Edge cases and validation
-
-### Problem 2: Timed Medium Problem 1
+### Slot 2: Timed Medium Problem 1
 **Difficulty:** Medium
 
-**Problem Statement:**
-[Add problem statement here from LeetCode or problem source]
-
-**Examples:**
-[Add examples here]
-
-**Constraints:**
-[Add constraints here]
+**Instructions:**
+Pick an unseen Medium problem from sliding window or prefix sum. Give yourself 20 minutes.
 
 **Solution Location:** [solutions/2_timed_medium_1.py](solutions/2_timed_medium_1.py)
+**Practice Location:** [questions/timed_medium_1.py](questions/timed_medium_1.py)
 
-**Approaches to Consider:**
-- Brute force solution
-- Optimized approach
-- Edge cases and validation
-
-### Problem 3: Timed Medium Problem 2
+### Slot 3: Timed Medium Problem 2
 **Difficulty:** Medium
 
-**Problem Statement:**
-[Add problem statement here from LeetCode or problem source]
-
-**Examples:**
-[Add examples here]
-
-**Constraints:**
-[Add constraints here]
+**Instructions:**
+Pick an unseen Medium problem from binary search (including rotated variants) or linked lists. Give yourself 25 minutes.
 
 **Solution Location:** [solutions/3_timed_medium_2.py](solutions/3_timed_medium_2.py)
-
-**Approaches to Consider:**
-- Brute force solution
-- Optimized approach
-- Edge cases and validation
+**Practice Location:** [questions/timed_medium_2.py](questions/timed_medium_2.py)
 
 ---
 
 ## ✅ Daily Checklist
 
-- [ ] Understand the concept
-- [ ] Write the pattern from memory
-- [ ] Solve Problem 1
-- [ ] Solve Problem 2
-- [ ] Explain complexity analysis
-- [ ] Record insights in mistakes log if needed
+- [ ] Review all patterns from this section
+- [ ] Pick and solve Slot 1 (Timed Easy Problem)
+- [ ] Pick and solve Slot 2 (Timed Medium Problem 1)
+- [ ] Pick and solve Slot 3 (Timed Medium Problem 2)
+- [ ] Write a one-line 'pattern recognition clue' for each problem solved
+- [ ] Record any mistakes in the mistakes log
 
 ---
 
 ## 📝 Key Takeaways
 
-- [Takeaway 1]
-- [Takeaway 2]
-- [Takeaway 3]
+- Timed practice reveals gaps that untimed practice hides.
+- Naming the pattern out loud before coding saves more time than it costs.
+- A wrong-but-fast attempt followed by careful review beats a slow, hesitant, 'correct' one for building interview speed.
 
 ---
 
 ## 🎬 Next Steps
 
 Once you complete this day:
-1. Review your solutions
-2. Check edge cases
+1. Fill in each slot's `solutions/` and `questions/` file with the problem you picked
+2. Review your solutions and check edge cases
 3. Verify complexity analysis
 4. Move to [Day 16](../Day-16/README.md)
 
 **Time Goal:** 60 minutes
-- Learn: 10 min
-- Pattern: 10 min
-- Solve: 35 min
-- Review: 5 min
 
 ---
 
