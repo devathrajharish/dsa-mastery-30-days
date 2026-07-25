@@ -11,9 +11,23 @@ def is_anagram(s, t):
     Time: O(?)
     Space: O(?)
     """
-    # TODO: implement your solution here
-    pass
-
+    if len(s) != len(t):
+        return False
+    s_count = {}
+    for char in s:
+        if char in s_count:
+            s_count[char] += 1
+        else:
+            s_count[char] = 1
+    for char in t:
+        if char in s_count:
+            s_count[char] -= 1
+        else:
+            return False
+    for char in s_count:
+        if s_count[char] != 0:
+            return False
+    return True
 
 if __name__ == "__main__":
     print(is_anagram("anagram", "nagaram"))  # Expected: True

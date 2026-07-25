@@ -10,10 +10,9 @@ using magazine's letters (each letter usable only once).
 def can_construct(ransom_note, magazine):
     """
     Time: O(?)
-    Space: O(?)
-    """
-    # TODO: implement your solution here
-    pass
+    Space: O(?)"""
+
+    
 
 
 if __name__ == "__main__":
